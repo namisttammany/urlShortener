@@ -12,7 +12,7 @@ var cors = require('cors');
 // mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/your-app-name');
 
 // const databaseUrl = process.env.DATABASE;
-const databaseUrl = 'mongodb://<dbuser>:<dbpassword>@ds217208.mlab.com:17208/heroku_z24p1s6h'
+const databaseUrl = 'mongodb://heroku_z24p1s6h:mentalHealth911*@ds217208.mlab.com:17208/heroku_z24p1s6h'
 
 console.log(databaseUrl)
 
