@@ -30,7 +30,7 @@ app.use(cors());
 
 MongoClient.connect(databaseUrl, { useNewUrlParser: true })
   .then(client => {
-    app.locals.db = client.db('shortener');
+    app.locals.db = client.db('heroku_z24p1s6h');
   })
   .catch(() => console.error('Failed to connect to the database'));
 
