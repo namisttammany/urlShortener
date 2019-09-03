@@ -8,11 +8,8 @@ const { MongoClient } = require('mongodb');
 const nanoid = require('nanoid');
 var cors = require('cors');
 
-// const mongoose = require('mongoose');
-// mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/your-app-name');
-
 // const databaseUrl = process.env.DATABASE;
-const databaseUrl = 'mongodb://heroku_z24p1s6h:mentalHealth911*@ds217208.mlab.com:17208/heroku_z24p1s6h'
+const databaseUrl = 'mongodb://shorturl:mentalHealth911*@ds217208.mlab.com:17208/heroku_z24p1s6h'
 
 console.log(databaseUrl)
 
