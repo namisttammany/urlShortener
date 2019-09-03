@@ -129,10 +129,10 @@ app.post('/shortenUrl', function(req, res){
       .then(result => {
         const doc = result.value;
         console.log(doc.short_id)
-        res.format ({
-          'application/json': function() {
-            res.send({ message: doc.short_id });
-         }})
+        // res.format ({
+        //   'application/json': function() {
+            res.send( doc.short_id );
+        //  }})
         
         // res.json({
         //   original_url: doc.original_url,
